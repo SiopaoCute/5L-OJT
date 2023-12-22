@@ -1,0 +1,87 @@
+<div class="container container-body">
+<!-- Button trigger modal -->
+<button type="button" class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ ADD
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Employee</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--- Modal Body -->
+      <div class="modal-body" id="mby-1">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Firstname</span>
+          <input type="firstname" class="form-control" id="floatingInput" placeholder="">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Lastname</span>
+          <input type="lastname" class="form-control" id="floatingInput" placeholder="">
+        </div>
+        
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email Address</label>
+        </div>
+  
+          <div class="mb-3">
+            <label for="formFile" class="form-label"><span>Browse</span></label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn2" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn3">Submit</button>
+      </div>
+    </div>
+  </div>
+
+<!--- Table ---->
+<input type="text" class="collapse vertical" id="collapseWidthExample" onkeyup="myFunction()" placeholder="Search..." title="Type in a name">
+<button class="btn4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+<i class="bi bi-search-heart-fill"></i></button>
+<button type="button" class="btn5">
+  EXPORT
+  </button>
+
+<div style="overflow-x:auto;">
+<table id="myTable">
+  <thead>
+  <tr class="header">
+    <th scope="col">ID</th>
+    <th scope="col">Firstname</th>
+    <th scope="col">Lastname</th>
+    <th scope="col">Email</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td data-label="ID">1</td>
+    <td data-label="Firstname">Alfreds</td>
+    <td data-label="Lastname">Futterkiste</td>
+    <td data-label="Email">alfreds@gmail.com</td>
+  </tr>
+  <tr>
+    <td data-label="ID">2</td>
+    <td data-label="Firstname">Berglunds</td>
+    <td data-label="Lastname">Snabbkop</td>
+    <td data-label="Email">berglunds@gmail.com</td>
+  </tr>
+  <tr>
+    <td data-label="ID">3</td>
+    <td data-label="Firstname">Island</td>
+    <td data-label="Lastname">Trading</td>
+    <td data-label="Email">island@gmail.com</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
