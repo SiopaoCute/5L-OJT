@@ -197,7 +197,7 @@
       background: #72087c;
     }
     25% {
-      background: #b958f1;
+      background: #b74df5;
     }
     50% {
       background: #72087c;
@@ -206,11 +206,11 @@
       background: #680fb1;
     }
     100% {
-      background: #af64b6;
+      background: #9e56a5;
     }
   }
 #boxshadow-sidebar {
-    background-color: #F2D8EB !important;
+    background-color: #eccbe3 !important;
 }
 .collapse .collapse-item {
     font-weight: 600;
@@ -220,25 +220,36 @@
     font-weight: 600;
     color: white !important;
 }
+.nav-link span {
+  font-weight: 600;
+  color: white !important;
+}
+.fa-tachometer-alt, .bxs-user-account, .bx-hive  {
+  color: white !important;
+}
 .nav-item:hover {
-    background-color: #BDA9D4 !important;
+    background-color: #4d2c74 !important;
 }
 .sidebar-divider {
-    border-bottom: 2px solid white!important;
+    border-bottom: 3px solid white!important;
+}
+#sidebarToggle {
+  margin-top: 50px;
 }
 
 
 /*--- Dashboard/Content -----*/
 #content-wrapper {
-    background-color: #D9E3E9 !important;
+    background-color: #D6DEE7 !important;
 }
 .navbar {
     background-color: #C084FC;
     box-shadow: 0 4px 8px #564787 !important;
 }
 .sticky-footer {
-    background-color: #D9E3E9 !important;
+    background-color: #D6DEE7 !important;
     box-shadow: 0 -5px 10px #8fa0aa !important;
+    margin-top: 50px;
 }
 #footer-label {
     color: #000 !important;
@@ -499,14 +510,12 @@
     box-shadow: 2px solid #352b53 !important;
 }
 #table td {
-    width: 100%;
     text-align: center;
     padding: 12px;   
     border: 1px solid rgb(213, 194, 219) !important;
     color: black;
 }
 #table th {
-    width: 100%;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
