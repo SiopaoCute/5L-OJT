@@ -157,6 +157,9 @@
     border: 2.5px solid #270050 !important;
     border-radius: 5px;
 }
+.bx-tada {
+  font-size: 25px;
+}
 .btn-search-topbar {
     height: 37px;
     width: 36px;
